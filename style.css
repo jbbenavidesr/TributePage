@@ -1,0 +1,11 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+/* --------
+Typography
+---------- */
+h1 {
+    font-weight: 600;
+    font-style: italic;
+}
