@@ -1,11 +1,73 @@
 body {
+    margin: 0;
     font-family: 'EB Garamond', serif;
+    background-color: rgba(158, 0, 0, 0.4);
+    color: #3b3b3b; 
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /* --------
 Typography
 ---------- */
+h1,
+p {
+    margin: 0;
+}
+
 h1 {
     font-weight: 600;
     font-style: italic;
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+a:hover,
+a:focus {
+    opacity: 0.5;
+}
+
+/* ---------
+Layout
+------------ */
+
+/* Header */
+header {
+    padding: 2em;
+    text-align: center;
+    background-color: #9C0000;
+    color: #E0E0E0;
+    margin-bottom: 2em;
+}
+
+/* image */
+
+#img-div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#image {
+    max-width: 100%;
+}
+
+/* button */
+.link {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+#tribute-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #9C0000;
+    color: #E0E0E0;
+    padding: .3em 1em;
+    border-radius: 1em;
 }
